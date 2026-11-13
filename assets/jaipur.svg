@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustrated pink city palace at sunset">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#df9e83"/><stop offset=".58" stop-color="#f2c2a0"/><stop offset="1" stop-color="#f5d6af"/></linearGradient>
+    <linearGradient id="sand" x2="0" y2="1"><stop stop-color="#c87761"/><stop offset="1" stop-color="#914f49"/></linearGradient>
+    <linearGradient id="palace" x2="0" y2="1"><stop stop-color="#f1b6a0"/><stop offset="1" stop-color="#d87e70"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v800H0z"/><circle cx="890" cy="170" r="77" fill="#fbe1b1" opacity=".8"/>
+  <path d="M0 476q160-45 325 2t320 0q170-52 340 1t215-1v322H0z" fill="#b97160"/>
+  <path d="M0 557h1200v243H0z" fill="url(#sand)"/>
+  <g fill="#cc7b6e" stroke="#f4b39b" stroke-width="8">
+    <path d="M135 330h235v310H135z"/><path d="M170 263h165v69H170z"/><path d="M194 218q58-73 116 0v45H194z"/>
+    <path d="M333 289h448v351H333z"/><path d="M393 225h98v64h-98z"/><path d="M410 184q32-56 64 0v41h-64z"/>
+    <path d="M511 202h100v87H511z"/><path d="M529 151q32-63 64 0v51h-64z"/>
+    <path d="M636 231h99v58h-99z"/><path d="M653 183q32-56 64 0v48h-64z"/>
+    <path d="M764 348h275v292H764z"/><path d="M803 282h88v66h-88z"/><path d="M817 239q30-58 60 0v43h-60z"/>
+  </g>
+  <g fill="#804d4b"><path d="M180 394h38v65h-38zM254 394h38v65h-38zM393 353h42v76h-42zM483 353h42v76h-42zM573 353h42v76h-42zM663 353h42v76h-42zM822 404h40v69h-40zM937 404h40v69h-40z"/><path d="M514 503h83v137h-83z"/></g>
+  <g fill="#f4d0b4"><path d="M144 472h218v15H144zM342 441h430v16H342zM777 483h248v15H777z"/></g>
+  <path d="M0 697q210-48 425 1t418-5q193-38 357 4v103H0z" fill="#744b45" opacity=".42"/>
+</svg>

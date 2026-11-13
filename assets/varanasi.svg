@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustrated Varanasi ghats beside the Ganges at sunrise">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dbc0a0"/><stop offset=".57" stop-color="#f0c99b"/><stop offset="1" stop-color="#d1a783"/></linearGradient>
+    <linearGradient id="river" x2="0" y2="1"><stop stop-color="#8eb2a9"/><stop offset="1" stop-color="#496f6c"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v800H0z"/><circle cx="753" cy="176" r="68" fill="#ffe5b1" opacity=".9"/>
+  <path d="M0 370h1200v430H0z" fill="url(#river)"/>
+  <path d="M0 340h455v110H0z" fill="#bd8970"/><path d="M0 288h410v54H0z" fill="#d8a587"/>
+  <path d="M46 187h169v101H46zM245 136h170v152H245zM443 215h127v77H443z" fill="#e7b08e"/>
+  <path d="M68 165q62-79 124 0v22H68zM270 114q62-75 123 0v23H270zM462 190q51-64 102 0v25H462z" fill="#956d5d"/>
+  <g fill="#755a4d"><path d="M77 219h27v43H77zM133 219h27v43h-27zM282 175h30v50h-30zM345 175h30v50h-30zM476 237h26v36h-26z"/></g>
+  <path d="M0 435h488v25H0zM0 485h440v25H0zM0 535h392v25H0zM0 585h337v25H0zM0 635h278v25H0z" fill="#e4b496"/>
+  <g fill="none" stroke="#dce4d5" stroke-width="5" opacity=".55"><path d="M529 552q130-21 245 4M798 630q134-21 265 2M613 711q132-23 258 3"/></g>
+  <path d="M649 503q80-37 160 0l-13 13H662z" fill="#674b3d"/><path d="M691 455h75v49h-75z" fill="#eee0ca"/><path d="M681 457q47-51 95 0" fill="#b98162"/>
+  <g fill="#f0d09a"><circle cx="755" cy="337" r="4"/><circle cx="790" cy="353" r="3"/><circle cx="716" cy="374" r="4"/></g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustrated Himalayan peaks above a pine valley">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#9fc6d0"/><stop offset="1" stop-color="#e8dfc7"/></linearGradient>
+    <linearGradient id="mount" x2="0" y2="1"><stop stop-color="#54777c"/><stop offset="1" stop-color="#314d4d"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v800H0z"/><circle cx="910" cy="155" r="59" fill="#f9dfae" opacity=".83"/>
+  <path d="M0 473 202 250l102 110L512 95l191 257L842 170l358 334v296H0z" fill="#76949a"/>
+  <path d="m202 250 61 67 41 43-51-19-47 21-43-23zM512 95l89 120 63 137-66-43-72 23-63-35-72 30 88-132zM842 170l111 102 121 123-103-36-81 17-84-50-97 24z" fill="#f2efe4"/>
+  <path d="M0 492q194-118 376 20t378-18q218-145 446 5v301H0z" fill="url(#mount)"/>
+  <path d="M0 608q196-110 374 20t383-14q229-140 443 7v179H0z" fill="#456c5c"/>
+  <g fill="#294a41"><path d="m74 633 43-118 43 118h-25l31 73h-97l30-73zM221 663l53-149 53 149h-31l37 83H217l37-83zM930 612l47-131 47 131h-27l33 76h-106l33-76zM1061 658l50-139 51 139h-30l36 82h-114l37-82z"/></g>
+  <path d="M0 756q201-42 405 4t400-4q207-46 395 3" fill="none" stroke="#afc7b1" stroke-width="7" opacity=".62"/>
+</svg>

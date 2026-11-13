@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f2">
+  <meta name="description" content="Find your next Indian escape with WandeRoam: destination ideas, local experiences, stays and easy trip planning.">
+  <title>WandeRoam — Explore India, your way</title>
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="theme.js" defer></script>
+  <script src="dashboard.js" defer></script>
+  <script src="chatbot.js" defer></script>
+</head>
+<body>
+  <header class="site-header landing-header">
+    <a class="brand" href="index.html" aria-label="WandeRoam home"><span class="brand-mark">w</span><span>Wande<span>Roam</span></span></a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#stays">Stays</a><a href="#about">About</a>
+    </nav>
+    <div class="header-actions"><button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" title="Toggle theme"><span aria-hidden="true">☾</span></button><a class="text-link sign-in-link" href="signin.html">Sign in</a><a class="button button-small button-dark" href="register.html">Get started <span aria-hidden="true">↗</span></a></div>
+  </header>
+
+  <main>
+    <section class="hero-shell hero-banner" aria-labelledby="hero-title">
+      <img class="hero-banner-photo" src="assets/images/himalaya-scenic-landscape.jpg" alt="Snow-dusted Himalayan peaks above a green mountain valley" width="1200" height="800" fetchpriority="high">
+      <div class="hero-banner-shade"></div>
+      <div class="hero-copy hero-banner-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Your India, your way</p>
+        <h1 id="hero-title">A little more<br><em>out there.</em></h1>
+        <p class="hero-description">From mountain mornings to coastal sunsets, find the places and moments that make a trip feel like yours.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#destinations">Explore destinations <span aria-hidden="true">↗</span></a><a class="button button-outline" href="home.html#planner">Plan your trip</a></div>
+        <div class="hero-trust"><span aria-hidden="true">✦</span> Thoughtful India travel, all in one place</div>
+      </div>
+      <div class="hero-caption hero-banner-caption"><span class="caption-icon" aria-hidden="true">⌖</span><span><strong>Himachal Pradesh</strong><small>Take the scenic route</small></span></div>
+      <div class="hero-bottom-note"><span>01 — 10</span><span class="hero-line"></span><span>Explore India. Discover Stories. Travel Your Way.</span></div>
+    </section>
+
+    <section class="section destination-feature landing-destinations" id="destinations">
+      <div class="section-heading"><div><p class="eyebrow">A little inspiration</p><h2>India is calling.</h2><p class="section-intro">Find a place to wander, then follow the feeling.</p></div><a class="arrow-link" href="home.html#destinations">All destinations <span>↗</span></a></div>
+      <div class="landing-destination-grid">
+        <article class="landing-place-card">
+          <a class="landing-place-image" href="home.html#destinations"><img src="assets/images/jaipur-hawa-mahal.jpg" alt="Hawa Mahal's pink sandstone facade in Jaipur" width="1200" height="800" loading="lazy" decoding="async"><span class="place-tag">HERITAGE</span></a>
+          <div class="landing-place-info"><div><p class="place-location">RAJASTHAN · NORTH INDIA</p><h3>Jaipur</h3></div><button class="save-place" type="button" aria-label="Save Jaipur" aria-pressed="false">♡</button></div>
+          <p class="landing-place-description">Pink-hued palaces, lively bazaars and a little desert-city magic.</p>
+          <div class="landing-place-meta"><span>Best time · Oct–Mar</span><span>Est. ₹3k–₹6k/day · 3–4 days</span></div>
+          <a class="landing-place-link" href="home.html#destinations">Explore Jaipur <span>↗</span></a>
+        </article>
+        <article class="landing-place-card">
+          <a class="landing-place-image" href="home.html#destinations"><img src="assets/images/kerala-backwaters-houseboat.jpg" alt="Houseboat moving through Kerala's tropical backwaters" width="1200" height="800" loading="lazy" decoding="async"><span class="place-tag">SLOW TRAVEL</span></a>
+          <div class="landing-place-info"><div><p class="place-location">KERALA · SOUTH INDIA</p><h3>Alappuzha</h3></div><button class="save-place" type="button" aria-label="Save Alappuzha" aria-pressed="false">♡</button></div>
+          <p class="landing-place-description">Drift past palm-lined canals and let the day take its time.</p>
+          <div class="landing-place-meta"><span>Best time · Sep–Mar</span><span>Est. ₹3k–₹6k/day · 2–3 days</span></div>
+          <a class="landing-place-link" href="home.html#destinations">Explore Kerala <span>↗</span></a>
+        </article>
+        <article class="landing-place-card">
+          <a class="landing-place-image" href="home.html#destinations"><img src="assets/images/goa-beach-coast.jpg" alt="Warm sunset over a sandy Goa beach and Arabian Sea" width="1200" height="800" loading="lazy" decoding="async"><span class="place-tag">COASTAL ESCAPE</span></a>
+          <div class="landing-place-info"><div><p class="place-location">GOA · WEST COAST</p><h3>Goa</h3></div><button class="save-place" type="button" aria-label="Save Goa" aria-pressed="false">♡</button></div>
+          <p class="landing-place-description">Sea-air mornings, golden-hour shores and easygoing coastal life.</p>
+          <div class="landing-place-meta"><span>Best time · Nov–Feb</span><span>Est. ₹3k–₹7k/day · 3–5 days</span></div>
+          <a class="landing-place-link" href="home.html#destinations">Explore Goa <span>↗</span></a>
+        </article>
+        <article class="landing-place-card">
+          <a class="landing-place-image" href="home.html#destinations"><img src="assets/images/agra-taj-mahal.jpg" alt="The Taj Mahal framed by its gardens in Agra" width="1200" height="800" loading="lazy" decoding="async"><span class="place-tag">ICONIC INDIA</span></a>
+          <div class="landing-place-info"><div><p class="place-location">UTTAR PRADESH · NORTH INDIA</p><h3>Agra</h3></div><button class="save-place" type="button" aria-label="Save Agra" aria-pressed="false">♡</button></div>
+          <p class="landing-place-description">See the Taj Mahal in the soft light of an early morning.</p>
+          <div class="landing-place-meta"><span>Best time · Oct–Mar</span><span>Est. ₹2k–₹5k/day · 1–2 days</span></div>
+          <a class="landing-place-link" href="home.html#destinations">Explore Agra <span>↗</span></a>
+        </article>
+        <article class="landing-place-card">
+          <a class="landing-place-image" href="home.html#destinations"><img src="assets/images/udaipur-lake-palace.jpg" alt="Udaipur palaces and old city beside the lake" width="1200" height="800" loading="lazy" decoding="async"><span class="place-tag">LAKESIDE</span></a>
+          <div class="landing-place-info"><div><p class="place-location">RAJASTHAN · WEST INDIA</p><h3>Udaipur</h3></div><button class="save-place" type="button" aria-label="Save Udaipur" aria-pressed="false">♡</button></div>
+          <p class="landing-place-description">Lake views, old-city lanes and slow evenings by the water.</p>
+          <div class="landing-place-meta"><span>Best time · Oct–Mar</span><span>Est. ₹3k–₹6k/day · 2–3 days</span></div>
+          <a class="landing-place-link" href="home.html#destinations">Explore Udaipur <span>↗</span></a>
+        </article>
+        <article class="landing-place-card">
+          <a class="landing-place-image" href="home.html#destinations"><img src="assets/images/munnar-tea-plantations.jpg" alt="Rolling green tea plantations across Munnar's hills" width="1200" height="800" loading="lazy" decoding="async"><span class="place-tag">HILL COUNTRY</span></a>
+          <div class="landing-place-info"><div><p class="place-location">KERALA · WESTERN GHATS</p><h3>Munnar</h3></div><button class="save-place" type="button" aria-label="Save Munnar" aria-pressed="false">♡</button></div>
+          <p class="landing-place-description">Winding hill roads, misty mornings and tea-country walks.</p>
+          <div class="landing-place-meta"><span>Best time · Sep–Mar</span><span>Est. ₹3k–₹6k/day · 2–3 days</span></div>
+          <a class="landing-place-link" href="home.html#destinations">Explore Munnar <span>↗</span></a>
+        </article>
+      </div>
+      <div class="destination-more"><a class="button button-outline" href="home.html#destinations">Discover all 10 destinations <span>↗</span></a></div>
+    </section>
+
+    <section class="experience-band" id="experiences">
+      <div class="experience-heading"><p class="eyebrow">Make it yours</p><h2>Come for the place.<br><em>Stay for the feeling.</em></h2><p>Choose your kind of escape, or let a new one find you.</p><a class="button button-light" href="home.html#destinations">Find your experience <span>↗</span></a></div>
+      <a class="experience-tile" href="home.html#destinations"><img src="assets/images/varanasi-ganga-ghats-sunrise.jpg" alt="Boats on the Ganges beside the Varanasi ghats at dawn" width="1200" height="800" loading="lazy" decoding="async"><span><small>RIVER & RITUAL</small><strong>First light in Varanasi</strong></span></a>
+      <a class="experience-tile" href="home.html#destinations"><img src="assets/images/meghalaya-waterfall.jpg" alt="Waterfall spilling through Meghalaya's green landscape" width="1200" height="800" loading="lazy" decoding="async"><span><small>WILD & GREEN</small><strong>Find your quiet in Meghalaya</strong></span></a>
+      <a class="experience-tile" href="home.html#destinations"><img src="assets/images/manali-snow-mountains.jpg" alt="Snow-topped mountain scenery around Manali" width="1200" height="800" loading="lazy" decoding="async"><span><small>HIGH COUNTRY</small><strong>Take the long way to Manali</strong></span></a>
+    </section>
+
+    <section class="section why-section" id="about">
+      <div class="section-heading"><div><p class="eyebrow">Why WandeRoam</p><h2>A better kind of trip planning.</h2></div><p class="section-aside">The little details, all in one place.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-icon icon-peach" aria-hidden="true">⌖</span><p class="feature-number">01 / DISCOVER</p><h3>Ideas with a sense of place</h3><p>Find Indian destinations, local culture and experiences that match your kind of curious.</p><a href="#destinations">Explore India <span>↗</span></a></article>
+        <article class="feature-card"><span class="feature-icon icon-green" aria-hidden="true">▤</span><p class="feature-number">02 / PLAN</p><h3>A plan that leaves room</h3><p>Keep an itinerary and a simple budget in one place, with room for spontaneity.</p><a href="home.html#planner">Build your itinerary <span>↗</span></a></article>
+        <article class="feature-card"><span class="feature-icon icon-blue" aria-hidden="true">♧</span><p class="feature-number">03 / CONNECT</p><h3>Good company, good stays</h3><p>Collect stay ideas and meet travellers who are heading in the same direction.</p><a href="home.html#buddies">Meet your travel buddies <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="recommendation-strip" id="stays"><div><p class="eyebrow">A GOOD NIGHT'S REST</p><h2>Find a stay with a story.</h2><p>Explore locally run homestays and welcoming places to pause along the way.</p></div><a class="button button-dark" href="home.html#stays">Explore stay ideas <span>↗</span></a><img src="assets/images/kerala-backwaters-houseboat.jpg" alt="A Kerala houseboat moored beside palm-shaded backwaters" width="1200" height="800" loading="lazy" decoding="async"></section>
+    <section class="closing-cta"><p class="eyebrow">The next story is yours</p><h2>Where will you wander?</h2><p>Your next favourite place is closer than you think.</p><a class="button button-dark" href="register.html">Start your journey <span>↗</span></a></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">w</span><span>Wande<span>Roam</span></span></a><p>Explore India. Discover Stories. Travel Your Way.</p><div><a href="#destinations">Destinations</a><a href="signin.html">Sign in</a><a href="signup.html">Create account</a></div><small>© 2026 WandeRoam · A student travel-planning project</small></footer>
+</body>
+</html>

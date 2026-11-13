@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustrated Taj Mahal at dawn reflected in a pool">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d4c8bd"/><stop offset=".64" stop-color="#f3c79f"/><stop offset="1" stop-color="#f6ddbb"/></linearGradient>
+    <linearGradient id="water" x2="0" y2="1"><stop stop-color="#a7b5af"/><stop offset="1" stop-color="#58736c"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v800H0z"/><circle cx="905" cy="143" r="62" fill="#f8e3bf" opacity=".83"/>
+  <path d="M0 501h1200v299H0z" fill="url(#water)"/>
+  <path d="M138 469h924v30H138z" fill="#446252"/><path d="M176 296h848v173H176z" fill="#f0e7d8"/>
+  <path d="M260 244q340-142 680 0v52H260z" fill="#e9ddcc"/><path d="M431 243q169-195 338 0z" fill="#f4ebdd"/>
+  <path d="M590 77q11-24 20-2l8 28h-36z" fill="#dacbb5"/><path d="M591 101h19v139h-19z" fill="#efe4d4"/>
+  <g fill="#eadfce"><path d="M192 316h-18V201q9-22 18 0zM1008 316h18V201q-9-22-18 0z"/><path d="M242 297h-16V179q8-22 16 0zM958 297h16V179q-8-22-16 0z"/></g>
+  <g fill="#b58567"><path d="M223 239h8v58h-8zM969 239h8v58h-8z"/><path d="M294 319h40v151h-40zM866 319h40v151h-40z"/></g>
+  <path d="M508 369q92-115 184 0v100H508z" fill="#b78971"/><path d="M530 372q70-83 140 0v97H530z" fill="#e3d8c8"/><path d="M590 380h20v89h-20z" fill="#ae836d"/>
+  <g fill="#9b7663"><path d="M365 347h45v123h-45zM790 347h45v123h-45z"/></g>
+  <path d="M305 507h590v20H305z" fill="#e5d4bd"/><path d="M0 557q180-29 352 0t354 0q264-28 494 0" fill="none" stroke="#e0e5d9" stroke-width="5" opacity=".7"/>
+  <path d="M540 510q60 90 60 180t-60 105h120q-60-45-60-105t60-180z" fill="#e9dfcf" opacity=".38"/>
+</svg>

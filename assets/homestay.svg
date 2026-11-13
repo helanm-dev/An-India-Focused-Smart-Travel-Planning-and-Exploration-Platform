@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustrated garden homestay in the Indian countryside">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a8c9b9"/><stop offset="1" stop-color="#e3d5ac"/></linearGradient>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#f1d7ad"/><stop offset="1" stop-color="#c88f65"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v800H0z"/><circle cx="947" cy="156" r="61" fill="#f8e4b7"/>
+  <path d="M0 411q168-90 330-7t331-5q189-92 539 9v392H0z" fill="#82966b"/>
+  <path d="M0 542q224-119 442 5t390-2q192-113 368-2v257H0z" fill="#536e4d"/>
+  <path d="M288 352 600 147l312 205v270H288z" fill="url(#wall)"/><path d="m238 359 362-251 362 251-33 42-329-227-329 227z" fill="#6c5542"/>
+  <path d="M389 401h137v221H389zM674 413h142v125H674z" fill="#62877a"/><path d="M403 416h109v13H403zM689 427h112v12H689z" fill="#f2e3bf"/>
+  <path d="M549 421h101v201H549z" fill="#6d4935"/><circle cx="632" cy="526" r="5" fill="#f0c977"/>
+  <path d="M278 619h654v24H278z" fill="#584c3d"/><path d="M252 643h704v29H252z" fill="#c18d65"/>
+  <g fill="#294b3c"><path d="m84 545 44-129 45 129h-27l32 82H79l32-82zM993 525l53-151 53 151h-31l38 91H986l39-91zM1082 600l40-112 41 112h-25l30 70h-91l30-70z"/></g>
+  <g fill="#dfb783"><circle cx="235" cy="679" r="15"/><circle cx="975" cy="703" r="12"/><circle cx="202" cy="720" r="10"/><circle cx="935" cy="666" r="14"/></g>
+</svg>

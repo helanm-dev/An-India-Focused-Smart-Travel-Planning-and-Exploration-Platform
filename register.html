@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f7f2">
+  <title>Create your WandeRoam profile</title>
+  <link rel="stylesheet" href="layout.css"><link rel="stylesheet" href="styles.css">
+  <script src="theme.js" defer></script><script src="validation.js" defer></script>
+</head>
+<body class="auth-page">
+  <header class="site-header auth-header"><a class="brand" href="index.html"><span class="brand-mark">w</span><span>Wande<span>Roam</span></span></a><div class="header-actions"><a class="text-link" href="index.html">← Back to explore</a><button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" title="Toggle theme"><span aria-hidden="true">☾</span></button></div></header>
+  <main class="auth-layout">
+    <aside class="auth-visual"><img src="assets/images/jaipur-hawa-mahal.jpg" alt="Hawa Mahal in Jaipur glowing in warm evening light" width="1200" height="800"><div class="auth-visual-content"><span class="eyebrow">A world of stories awaits</span><h1>Make room<br>for <em>somewhere.</em></h1><p>One little step towards your next great story.</p></div><span class="auth-visual-foot">WANDEROAM · EXPLORE INDIA</span></aside>
+    <section class="auth-form-wrap"><div class="auth-form-heading"><p class="eyebrow">Join the journey</p><h2>Create your profile</h2><p>Tell us a little about yourself to get started.</p></div>
+      <form id="register-form" class="form-card" novalidate>
+        <div class="form-row"><div class="field"><label for="fullName">Full Name</label><input id="fullName" name="fullName" type="text" autocomplete="name" placeholder="e.g. Aanya Sharma" aria-describedby="fullName-error" required><span class="error-msg" id="fullName-error"></span></div><div class="field"><label for="empId">Employee / Register ID</label><input id="empId" name="empId" type="text" autocomplete="off" placeholder="e.g. WR202601" aria-describedby="empId-error" required><span class="error-msg" id="empId-error"></span></div></div>
+        <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" aria-describedby="email-error" required><span class="error-msg" id="email-error"></span></div>
+        <div class="field"><label for="mobile">Mobile number</label><input id="mobile" name="mobile" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10-digit mobile number" aria-describedby="mobile-error" required><span class="error-msg" id="mobile-error"></span></div>
+        <div class="field"><label for="dept">Division</label><select id="dept" name="dept" aria-describedby="dept-error" required><option value="">Choose your division</option><option>Computer Science & Engineering</option><option>Information Technology</option><option>Electronics & Communication</option><option>Electrical & Electronics</option><option>Mechanical Engineering</option><option>Civil Engineering</option><option>Other</option></select><span class="error-msg" id="dept-error"></span></div>
+        <div class="form-row"><div class="field"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="new-password" placeholder="At least 8 characters" aria-describedby="password-error" required><span class="error-msg" id="password-error"></span></div><div class="field"><label for="confirmPassword">Confirm password</label><input id="confirmPassword" name="confirmPassword" type="password" autocomplete="new-password" placeholder="Type it again" aria-describedby="confirmPassword-error" required><span class="error-msg" id="confirmPassword-error"></span></div></div>
+        <p class="password-hint">Use uppercase, lowercase, a number and a special character (@$!%*?&amp;).</p>
+        <button id="register-submit" class="button button-dark button-full" type="submit" disabled>Create my profile <span>↗</span></button><p class="form-feedback" id="register-feedback" role="status" aria-live="polite"></p>
+        <p class="form-switch">Already have an account? <a href="signin.html">Sign in</a></p>
+      </form>
+    </section>
+  </main>
+  <script src="chatbot.js" defer></script>
+</body>
+</html>

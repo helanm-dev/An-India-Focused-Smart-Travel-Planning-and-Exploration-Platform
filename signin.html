@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f7f2">
+  <title>Sign in — WandeRoam</title>
+  <link rel="stylesheet" href="layout.css"><link rel="stylesheet" href="styles.css">
+  <script src="theme.js" defer></script><script src="validation.js" defer></script>
+</head>
+<body class="auth-page">
+  <header class="site-header auth-header"><a class="brand" href="index.html"><span class="brand-mark">w</span><span>Wande<span>Roam</span></span></a><div class="header-actions"><a class="text-link" href="index.html">← Back to explore</a><button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" title="Toggle theme"><span aria-hidden="true">☾</span></button></div></header>
+  <main class="auth-layout">
+    <aside class="auth-visual signin-visual"><img src="assets/images/agra-taj-mahal.jpg" alt="The Taj Mahal in Agra at the edge of its gardens" width="1200" height="800"><div class="auth-visual-content"><span class="eyebrow">Come back to the map</span><h1>Your next story<br>is still <em>out there.</em></h1><p>Pick up where your daydreams left off.</p></div><span class="auth-visual-foot">WANDEROAM · EXPLORE INDIA</span></aside>
+    <section class="auth-form-wrap"><div class="auth-form-heading"><p class="eyebrow">Welcome back</p><h2>Sign in to WandeRoam</h2><p>Good to have you back.</p></div>
+      <form id="signin-form" class="form-card" novalidate>
+        <div class="field"><label for="signin-email">Email address</label><input id="signin-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><span class="error-msg" id="signin-email-error"></span></div>
+        <div class="field"><label for="signin-password">Password</label><div class="password-input-wrap"><input id="signin-password" name="password" type="password" autocomplete="current-password" placeholder="Your password" required><button class="password-toggle" type="button" data-password-toggle="signin-password" aria-label="Show password">Show</button></div><span class="error-msg" id="signin-password-error"></span></div>
+        <div class="signin-alert" id="signin-alert" role="alert" aria-live="assertive" hidden></div>
+        <button class="button button-dark button-full" type="submit">Sign in <span>↗</span></button><p class="form-feedback" id="signin-feedback" role="status" aria-live="polite"></p>
+        <p class="form-switch">New to WandeRoam? <a href="register.html">Create a profile</a> · <a href="signup.html">Sign up</a></p>
+        <p class="demo-note">This frontend demo checks accounts saved in your browser only. It is not secure backend authentication.</p>
+      </form>
+    </section>
+  </main>
+  <script src="chatbot.js" defer></script>
+</body>
+</html>

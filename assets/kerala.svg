@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustrated Kerala backwaters with a houseboat and palms">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#abd4c7"/><stop offset="1" stop-color="#e7d4a9"/></linearGradient>
+    <linearGradient id="water" x2="0" y2="1"><stop stop-color="#478e83"/><stop offset="1" stop-color="#214e51"/></linearGradient>
+    <linearGradient id="hull" x2="0" y2="1"><stop stop-color="#543c30"/><stop offset="1" stop-color="#302d28"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v800H0z"/><circle cx="245" cy="171" r="61" fill="#f7e5b3" opacity=".85"/>
+  <path d="M0 349q175-101 355 5t340-4q187-109 505 0v242H0z" fill="#789b78"/>
+  <path d="M0 410q130-78 284 15v126H0zM850 397q165-87 350-5v178H850z" fill="#436d5c"/>
+  <path d="M0 490q200-24 387 7t410 0q226-31 403 4v299H0z" fill="url(#water)"/>
+  <g fill="none" stroke="#b4d7c2" stroke-width="5" opacity=".5"><path d="M50 600q160-28 300 0M660 664q170-29 355 2M91 736q126-20 247 3M833 573q132-22 252 5"/></g>
+  <g stroke="#415b3d" stroke-width="12" stroke-linecap="round" fill="none"><path d="M146 471Q122 270 157 105"/><path d="M1040 470q10-202 57-347"/><path d="M281 460q-2-139 44-266"/></g>
+  <g fill="#315842"><path d="M157 111q-95-85-145-10 73-25 140 27-48-100-14-142 23 72 22 138 32-104 117-104-61 27-120 103 110-57 157-3-99-27-157 11z"/><path d="M1092 121q-104-72-147-6 79-19 142 34-40-103 0-143 16 75 7 141 41-99 124-88-64 19-128 89 114-43 153 18-95-39-151 1z"/><path d="M327 194q-77-68-116-19 63-14 109 34-27-82 10-114 9 61-1 110 36-77 103-64-52 14-106 68 90-29 120 22-74-35-119-4z"/></g>
+  <path d="M354 467q100-128 247-128t244 128v31H354z" fill="#9c6a43"/><path d="M382 465q92-95 219-95t218 95z" fill="#d3a66c"/>
+  <path d="M411 465q73-66 190-66t191 66" fill="none" stroke="#76543b" stroke-width="12"/>
+  <path d="M312 492q282 22 589 0l-75 114q-226 38-449 0z" fill="url(#hull)"/>
+  <path d="M385 499h438v21H385z" fill="#d9b37c"/><path d="M492 430v57m110-79v80m113-79v78" stroke="#f0d7a9" stroke-width="9"/>
+  <g fill="#edc989"><rect x="453" y="445" width="30" height="28" rx="8"/><rect x="553" y="424" width="31" height="31" rx="8"/><rect x="662" y="426" width="31" height="31" rx="8"/><rect x="758" y="446" width="30" height="28" rx="8"/></g>
+</svg>
